@@ -478,10 +478,39 @@
   </div>
 </div>
 
+<!-- STOX Galaxy Orb -->
+<div id="stox-orb">
+  <span>STOX</span>
+</div>
+
+
+<!-- STOX Sidebar Panel -->
+<div id="stox-panel">
+  <div class="stox-header">
+  <div id="stox-header-logo"></div>
+  <button id="stox-close">✕</button>
+</div>
+
+  <div class="stox-body">
+    <!-- Chat messages will appear here later -->
+    <div class="stox-placeholder">
+      Ask STOX about stocks, markets, or actions…
+    </div>
+  </div>
+
+  <div class="stox-input-area">
+    <input
+      type="text"
+      id="stox-input"
+      placeholder="Type or say 'Stox' to begin..."
+    />
+    <button id="stox-send">➤</button>
+  </div>
+</div>
+
 <!-- ================= SCRIPTS ================= -->
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
-
 </body>
 </html>
 
